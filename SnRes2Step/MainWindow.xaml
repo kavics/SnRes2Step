@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:SnRes2Step"
         mc:Ignorable="d"
-        Title="MainWindow" Height="350" Width="525">
+        Title="Make a Step from Resource" Height="350" Width="525">
     <Grid Margin="0,0,0,7">
         <Label x:Name="label1" Content="Resource content:" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Width="105"/>
         <TextBox x:Name="resourceContentTextBox" Height="27" Margin="120,10,21,0" TextWrapping="Wrap" VerticalAlignment="Top" VerticalContentAlignment="Center" FontSize="14.667" Text="{Binding ResourceContentName}" Grid.ColumnSpan="2"/>
